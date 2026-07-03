@@ -1,0 +1,842 @@
+[
+  {
+    "seq": 0,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 1,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 2,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 3,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 4,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 5,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 6,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 7,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 8,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 9,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 10,
+    "is_faulty": true,
+    "fault_key": "freshness_lag",
+    "tier": "obvious",
+    "pillar": "checks"
+  },
+  {
+    "seq": 11,
+    "is_faulty": true,
+    "fault_key": "type_violation",
+    "tier": "n/a",
+    "pillar": "contracts"
+  },
+  {
+    "seq": 12,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 13,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 14,
+    "is_faulty": true,
+    "fault_key": "embedding_drift",
+    "tier": "obvious",
+    "pillar": "ai_infra"
+  },
+  {
+    "seq": 15,
+    "is_faulty": true,
+    "fault_key": "distribution_shift",
+    "tier": "obvious",
+    "pillar": "checks"
+  },
+  {
+    "seq": 16,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 17,
+    "is_faulty": true,
+    "fault_key": "missing_upstream",
+    "tier": "n/a",
+    "pillar": "lineage"
+  },
+  {
+    "seq": 18,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 19,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 20,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 21,
+    "is_faulty": true,
+    "fault_key": "type_violation",
+    "tier": "n/a",
+    "pillar": "contracts"
+  },
+  {
+    "seq": 22,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 23,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 24,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 25,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 26,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 27,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 28,
+    "is_faulty": true,
+    "fault_key": "feature_skew",
+    "tier": "subtle",
+    "pillar": "ai_infra"
+  },
+  {
+    "seq": 29,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 30,
+    "is_faulty": true,
+    "fault_key": "volume_spike",
+    "tier": "obvious",
+    "pillar": "checks"
+  },
+  {
+    "seq": 31,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 32,
+    "is_faulty": true,
+    "fault_key": "runtime_anomaly",
+    "tier": "obvious",
+    "pillar": "lineage"
+  },
+  {
+    "seq": 33,
+    "is_faulty": true,
+    "fault_key": "feature_skew",
+    "tier": "obvious",
+    "pillar": "ai_infra"
+  },
+  {
+    "seq": 34,
+    "is_faulty": true,
+    "fault_key": "corpus_staleness",
+    "tier": "obvious",
+    "pillar": "ai_infra"
+  },
+  {
+    "seq": 35,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 36,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 37,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 38,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 39,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 40,
+    "is_faulty": true,
+    "fault_key": "volume_spike",
+    "tier": "obvious",
+    "pillar": "checks"
+  },
+  {
+    "seq": 41,
+    "is_faulty": true,
+    "fault_key": "schema_break",
+    "tier": "n/a",
+    "pillar": "contracts"
+  },
+  {
+    "seq": 42,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 43,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 44,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 45,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 46,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 47,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 48,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 49,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 50,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 51,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 52,
+    "is_faulty": true,
+    "fault_key": "missing_upstream",
+    "tier": "n/a",
+    "pillar": "lineage"
+  },
+  {
+    "seq": 53,
+    "is_faulty": true,
+    "fault_key": "feature_skew",
+    "tier": "obvious",
+    "pillar": "ai_infra"
+  },
+  {
+    "seq": 54,
+    "is_faulty": true,
+    "fault_key": "embedding_drift",
+    "tier": "obvious",
+    "pillar": "ai_infra"
+  },
+  {
+    "seq": 55,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 56,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 57,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 58,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 59,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 60,
+    "is_faulty": true,
+    "fault_key": "volume_spike",
+    "tier": "obvious",
+    "pillar": "checks"
+  },
+  {
+    "seq": 61,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 62,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 63,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 64,
+    "is_faulty": true,
+    "fault_key": "corpus_staleness",
+    "tier": "obvious",
+    "pillar": "ai_infra"
+  },
+  {
+    "seq": 65,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 66,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 67,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 68,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 69,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 70,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 71,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 72,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 73,
+    "is_faulty": true,
+    "fault_key": "feature_skew",
+    "tier": "subtle",
+    "pillar": "ai_infra"
+  },
+  {
+    "seq": 74,
+    "is_faulty": true,
+    "fault_key": "corpus_staleness",
+    "tier": "obvious",
+    "pillar": "ai_infra"
+  },
+  {
+    "seq": 75,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 76,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 77,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 78,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 79,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 80,
+    "is_faulty": true,
+    "fault_key": "null_spike",
+    "tier": "obvious",
+    "pillar": "checks"
+  },
+  {
+    "seq": 81,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 82,
+    "is_faulty": true,
+    "fault_key": "runtime_anomaly",
+    "tier": "obvious",
+    "pillar": "lineage"
+  },
+  {
+    "seq": 83,
+    "is_faulty": true,
+    "fault_key": "feature_skew",
+    "tier": "obvious",
+    "pillar": "ai_infra"
+  },
+  {
+    "seq": 84,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 85,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 86,
+    "is_faulty": true,
+    "fault_key": "schema_break",
+    "tier": "n/a",
+    "pillar": "contracts"
+  },
+  {
+    "seq": 87,
+    "is_faulty": true,
+    "fault_key": "orphan_output",
+    "tier": "n/a",
+    "pillar": "lineage"
+  },
+  {
+    "seq": 88,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 89,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 90,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 91,
+    "is_faulty": true,
+    "fault_key": "type_violation",
+    "tier": "n/a",
+    "pillar": "contracts"
+  },
+  {
+    "seq": 92,
+    "is_faulty": true,
+    "fault_key": "orphan_output",
+    "tier": "n/a",
+    "pillar": "lineage"
+  },
+  {
+    "seq": 93,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 94,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 95,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 96,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 97,
+    "is_faulty": true,
+    "fault_key": "runtime_anomaly",
+    "tier": "obvious",
+    "pillar": "lineage"
+  },
+  {
+    "seq": 98,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 99,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 100,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 101,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 102,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 103,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 104,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 105,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 106,
+    "is_faulty": true,
+    "fault_key": "type_violation",
+    "tier": "n/a",
+    "pillar": "contracts"
+  },
+  {
+    "seq": 107,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 108,
+    "is_faulty": true,
+    "fault_key": "feature_skew",
+    "tier": "obvious",
+    "pillar": "ai_infra"
+  },
+  {
+    "seq": 109,
+    "is_faulty": true,
+    "fault_key": "embedding_drift",
+    "tier": "obvious",
+    "pillar": "ai_infra"
+  },
+  {
+    "seq": 110,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 111,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 112,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 113,
+    "is_faulty": true,
+    "fault_key": "feature_skew",
+    "tier": "obvious",
+    "pillar": "ai_infra"
+  },
+  {
+    "seq": 114,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 115,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 116,
+    "is_faulty": true,
+    "fault_key": "schema_break",
+    "tier": "n/a",
+    "pillar": "contracts"
+  },
+  {
+    "seq": 117,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 118,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  },
+  {
+    "seq": 119,
+    "is_faulty": false,
+    "fault_key": null,
+    "tier": null,
+    "pillar": null
+  }
+]

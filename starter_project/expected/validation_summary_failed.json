@@ -1,7 +1,0 @@
-{
-  "row_count": 10,
-  "missing_customer_ids": 2,
-  "invalid_amounts": 2,
-  "invalid_statuses": 2,
-  "validation_status": "failed"
-}

@@ -1,0 +1,13 @@
+{
+  "row_count_min": 435.4732,
+  "row_count_max": 561.2948,
+  "null_rate_max": 0.0109,
+  "mean_amount_min": 72.7645,
+  "mean_amount_max": 90.6053,
+  "staleness_min_max": 8.418,
+  "freshness_delay_max_min": 11.1141,
+  "lineage_duration_ms_max": 5134.9804,
+  "feature_mean_shift_sigma_max": 0.4095,
+  "embedding_centroid_shift_max": 0.0435,
+  "corpus_avg_doc_age_days_max": 49.7955
+}
